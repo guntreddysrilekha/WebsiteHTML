@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(60, 60, 60, 0.912);
+    color: white;
+}
+.programming ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 25px; 
+}
+.koding{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+.search{
+    margin: 6px 33px;
+}
+.search input{
+    padding: 8px;
+    border-radius: 6px;
+}
+.search label{
+    border: 1px solid rgb(2, 161, 66);
+    color: rgb(2, 161, 66);
+     padding: 8px 13px;
+    border-radius: 6px;
+    margin-left: -6px;
+}
+.who{
+    text-align: center;
+}
+.developer{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.Aboutme{
+    margin: 30px;
+    width: 60%;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.science button{
+    padding: 11px 30px;
+    background-color: rgba(201, 4, 4, 0.847);
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+}
+.science{
+    line-height: 25px;
+    padding-top: 70px;
+    text-align: justify;
+}
+.science p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+.Line{
+    border-bottom: 4px solid rgba(201, 4, 4, 0.847);
+    width: 60px;
+    margin: 0px auto;
+    padding: 5px;
+}
+.cicero{
+    display: flex;
+    justify-content: center;
+}
+.cards p{
+    padding-top: 10px;
+    line-height: 25px;
+}
+.design{
+    background: white;
+    box-shadow: 0px 5px 12px rgba(0,0,0,1.5);
+}
+.creative{
+    display: flex;
+    justify-content: center;
+   
+}
