@@ -1,0 +1,85 @@
+.Haur{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login{
+    box-shadow: 0px 10px 25px 12px rgba(169, 157, 157, 0.548);
+    width: 60%;
+    border-radius: 20px;
+    height: 680px;
+    display: flex;
+}
+
+.signin{
+    width: 40%;
+    background-color: #0059b3;
+    color: #fff;
+    text-align: center;
+    height: 600px;
+    border-radius: 20px;
+    padding: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+form{
+    padding-top: 20px;
+    line-height: 1.8;
+    text-align: start;
+}
+.padding{
+    padding: 9px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #3f7ad2a1;
+    border-style: none;
+}
+.button{
+     padding: 10px;
+     border-radius: 10px;
+     border-style:none ;
+     width: 280px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.forget{
+    color: white;
+    position: relative;
+    left: 70px;
+}
+.english{
+    padding: 5px 10px;
+}
+.cards div{
+    box-shadow: 0px 5px 12px rgb(0,0,0,0.2);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+}
+.assset,.smart{
+    background-color: rgba(249, 220, 185, 0.505);
+}.smart{
+     background-color: rgba(82, 162, 247, 0.238)
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.tracking{
+ margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tracking h1{
+    text-align: center;
+}
