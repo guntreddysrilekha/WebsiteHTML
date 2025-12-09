@@ -15,7 +15,7 @@
 }
 
 .signin{
-    width: 40%;
+    width: 60%;
     background-color: #0059b3;
     color: #fff;
     text-align: center;
@@ -32,11 +32,12 @@ form{
     text-align: start;
 }
 .padding{
-    padding: 9px;
-    width: 280px;
+    padding: 3px;
+    width: 100%;
     border-radius: 10px;
     background-color: #3f7ad2a1;
     border-style: none;
+    height: 40px;
 }
 .button{
      padding: 10px;
@@ -47,10 +48,13 @@ form{
      margin-bottom: 10px;
 }
 .forget{
-    color: white;
-    position: relative;
-    left: 70px;
+  
+    text-align: end;
+   
 }
+.forget   a{
+    color: white;
+    }
 .english{
     padding: 5px 10px;
 }
@@ -82,4 +86,12 @@ form{
 }
 .tracking h1{
     text-align: center;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: white;
 }
